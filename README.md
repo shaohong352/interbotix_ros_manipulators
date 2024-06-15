@@ -52,6 +52,17 @@ As shown above, there are five main levels to this repository. To clarify some o
 
 Over time, the repo will grow to include more types of manipulators.
 
+when git failed :
+On Linux
+
+Execute the following in the command line before executing the Git command:
+
+export GIT_TRACE_PACKET=1
+export GIT_TRACE=1
+export GIT_CURL_VERBOSE=1
+
+
+
 ## Contributing
 Feel free to send PRs to add features to currently existing Arm ROS packages or to include new ones. Note that all PRs should follow the structure and naming conventions outlined in the repo including documentation.
 
